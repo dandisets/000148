@@ -16,10 +16,10 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 1859203120
-  numberOfCells: 45
-  numberOfFiles: 92
-  numberOfSamples: 45
+  numberOfBytes: 929635304
+  numberOfCells: 44
+  numberOfFiles: 46
+  numberOfSamples: 44
   numberOfSubjects: 46
   schemaKey: AssetsSummary
   species:
@@ -27,7 +27,7 @@ assetsSummary:
     name: House mouse
     schemaKey: SpeciesType
   variableMeasured: []
-citation: Zhang, Guang-Wei (2021) 1U01MH116990-01_Oct_2021 (Version draft) [Data set].
+citation: Zhang, Guang-Wei (2022) 1U01MH116990-01_Oct_2021 (Version draft) [Data set].
   DANDI archive. https://dandiarchive.org/dandiset/000148/draft
 contributor:
 - affiliation: []
