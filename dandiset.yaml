@@ -53,7 +53,8 @@ ethicsApproval: []
 id: DANDI:000148/draft
 identifier: DANDI:000148
 keywords: []
-license: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000148/versions/draft/assets/
 name: 1U01MH116990-01_Oct_2021
