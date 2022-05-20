@@ -10,12 +10,16 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
-  measurementTechnique: []
+  measurementTechnique:
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
   numberOfBytes: 929635440
   numberOfCells: 45
   numberOfFiles: 46
@@ -26,9 +30,12 @@ assetsSummary:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
-  variableMeasured: []
-citation: Zhang, Guang-Wei (2022) 1U01MH116990-01_Oct_2021 (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000148/draft
+  variableMeasured:
+  - CurrentClampStimulusSeries
+  - CurrentClampSeries
+citation: Zhang, Guang-Wei; Tao, Can; Peng, Bo (2022) Electrophysiological properties
+  of adult mouse spinal cord neurons - 01_Oct_2021 (Version draft) [Data set]. DANDI
+  archive. https://dandiarchive.org/dandiset/000148/draft
 contributor:
 - affiliation: []
   email: guangwei.zhang@med.usc.edu
@@ -36,6 +43,20 @@ contributor:
   name: Zhang, Guang-Wei
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-3914-1877
+  includeInCitation: true
+  name: Tao, Can
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0001-8122-189X
+  includeInCitation: true
+  name: Peng, Bo
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - awardNumber: 1U01MH116990
   contactPoint: []
@@ -57,10 +78,10 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000148/versions/draft/assets/
-name: 1U01MH116990-01_Oct_2021
+name: Electrophysiological properties of adult mouse spinal cord neurons - 01_Oct_2021
 protocol: []
 relatedResource: []
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
