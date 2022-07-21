@@ -87,4 +87,8 @@ schemaVersion: 0.6.0
 studyTarget: []
 url: https://dandiarchive.org/dandiset/000148/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- name: Brain Initiative Cell Census Network (BICCN)
+  schemaKey: Project
+  used: []
+  wasAssociatedWith: []
